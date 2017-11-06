@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darkknight.sbiapp.NewActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleY="1.64"
+        android:scaleX="0.99"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/im3" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>
